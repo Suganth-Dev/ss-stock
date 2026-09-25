@@ -2,7 +2,6 @@ services:
   - type: web
     name: ss-stock-admin
     runtime: static
-    rootDir: admin
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
     routes:
